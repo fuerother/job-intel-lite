@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>就业情报系统 Lite｜你的就业情报，请查收</title>
   <style>
-    :root{--primary:#123D7C;--dark:#0B2854;--accent:#F59E0B;--bg:#F6F8FC;--card:#fff;--text:#1F2937;--muted:#6B7280;--line:#E5E7EB;--green:#10B981;--soft:#EEF2FF}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}a{text-decoration:none;color:inherit}.topbar{background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 6vw;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:900;color:var(--dark)}.brand-badge{width:34px;height:34px;border-radius:11px;background:var(--soft);display:grid;place-items:center}.nav{display:flex;gap:22px;font-size:14px;color:#475569}.nav a:hover{color:var(--primary)}.hero{padding:70px 6vw 46px;background:radial-gradient(circle at 82% 12%,rgba(245,158,11,.18),transparent 28%),linear-gradient(135deg,#103A78,#091D3D);color:#fff}.hero-wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.08fr .92fr;gap:36px;align-items:center}.tag{display:inline-flex;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);font-size:13px;margin-bottom:20px}h1{margin:0;font-size:clamp(36px,5vw,58px);line-height:1.08;letter-spacing:-1.5px}.hero p{font-size:18px;color:rgba(255,255,255,.84);max-width:720px;margin:20px 0 0}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 18px;border-radius:12px;font-weight:900;display:inline-flex;align-items:center;justify-content:center}.btn.primary{background:var(--accent);color:#111827}.search-card{background:rgba(255,255,255,.97);color:var(--text);padding:24px;border-radius:24px;box-shadow:0 22px 60px rgba(0,0,0,.22)}.search-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.search-head h3{margin:0;font-size:20px}.badge{font-size:12px;color:#065F46;background:#D1FAE5;padding:4px 8px;border-radius:999px;font-weight:900;white-space:nowrap}.search{display:flex;gap:8px;background:#F3F4F6;padding:8px;border-radius:14px;border:1px solid var(--line);margin-top:16px}.search input{border:0;background:transparent;outline:0;flex:1;font-size:15px;padding:10px;min-width:0}.search button{border:0;background:var(--primary);color:#fff;border-radius:10px;padding:0 16px;font-weight:900;cursor:pointer}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.chips span{font-size:13px;padding:6px 10px;background:#EEF2FF;color:#243B76;border-radius:999px}.quick-note{margin-top:18px;padding:14px;border-radius:16px;background:#F8FAFC;border:1px solid var(--line);color:#475569;font-size:14px}.quick-note strong{color:var(--primary)}main{max-width:1180px;margin:0 auto;padding:42px 6vw 80px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:18px}.section-head h2{margin:0;font-size:28px;letter-spacing:-.4px}.section-head p{margin:6px 0 0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature,.company,.mini-card,.notice{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 10px 28px rgba(15,23,42,.04)}.feature{padding:20px;min-height:150px}.icon{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#EAF2FF;margin-bottom:14px;font-size:21px}.feature h3{margin:0 0 8px}.feature p,.company p,.mini-card p{margin:0;color:var(--muted);font-size:14px}.layout{display:grid;grid-template-columns:250px 1fr;gap:18px;margin-top:28px}.filter{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;height:fit-content;position:sticky;top:82px}.filter h3{margin:0 0 14px}.filter-group{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}.filter-group strong{display:block;font-size:13px;color:var(--muted);margin-bottom:10px}.chip{display:inline-block;margin:0 6px 8px 0;padding:6px 10px;background:#F3F4F6;border-radius:999px;font-size:13px}.list{display:grid;gap:16px}.company{padding:20px}.company-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.title{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,#EAF2FF,#F8FAFC);border:1px solid var(--line);display:grid;place-items:center;font-weight:900;color:var(--primary)}.title h3{margin:0;font-size:20px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}.meta span{padding:3px 8px;font-size:12px;border-radius:999px;background:#F3F4F6;color:#4B5563}.valid{background:#ECFDF5;color:#047857;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:900;white-space:nowrap}.valid.pending{background:#FEF3C7;color:#92400E}.links{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.link{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:#FAFAFA;font-size:13px;font-weight:900;color:var(--primary);text-align:center}.link.primary-link{background:var(--primary);color:#fff;border-color:var(--primary)}.mini-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:42px}.mini-card{padding:22px}.mini-card h2{font-size:24px;margin:0 0 8px}.small-btn{display:inline-flex;border-radius:11px;padding:10px 13px;background:var(--accent);color:#111827;font-weight:900;font-size:13px;margin-top:16px}.notice{margin-top:22px;padding:22px;background:#fff}.notice h2{font-size:24px;margin:0 0 8px}.notice p{margin:0;color:#64748b}.notice ul{margin:14px 0 0;padding-left:20px;color:#475569;font-size:14px}.notice li{margin:6px 0}footer{padding:26px 6vw 40px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:920px){.nav{display:none}.hero-wrap,.layout,.mini-row{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.links{grid-template-columns:repeat(2,1fr)}.filter{position:static}}@media(max-width:560px){.hero{padding-top:46px}.grid{grid-template-columns:1fr}.company-top{flex-direction:column}.links{grid-template-columns:1fr}h1{font-size:36px}}
+    :root{--primary:#123D7C;--dark:#0B2854;--accent:#F59E0B;--bg:#F6F8FC;--card:#fff;--text:#1F2937;--muted:#6B7280;--line:#E5E7EB;--green:#10B981;--soft:#EEF2FF}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}a{text-decoration:none;color:inherit}.topbar{background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 6vw;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:900;color:var(--dark)}.brand-badge{width:34px;height:34px;border-radius:11px;background:var(--soft);display:grid;place-items:center}.nav{display:flex;gap:22px;font-size:14px;color:#475569}.nav a:hover{color:var(--primary)}.hero{padding:70px 6vw 46px;background:radial-gradient(circle at 82% 12%,rgba(245,158,11,.18),transparent 28%),linear-gradient(135deg,#103A78,#091D3D);color:#fff}.hero-wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.08fr .92fr;gap:36px;align-items:center}.tag{display:inline-flex;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);font-size:13px;margin-bottom:20px}h1{margin:0;font-size:clamp(36px,5vw,58px);line-height:1.08;letter-spacing:-1.5px}.hero p{font-size:18px;color:rgba(255,255,255,.84);max-width:720px;margin:20px 0 0}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 18px;border-radius:12px;font-weight:900;display:inline-flex;align-items:center;justify-content:center}.btn.primary{background:var(--accent);color:#111827}.search-card{background:rgba(255,255,255,.97);color:var(--text);padding:24px;border-radius:24px;box-shadow:0 22px 60px rgba(0,0,0,.22)}.search-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.search-head h3{margin:0;font-size:20px}.badge{font-size:12px;color:#065F46;background:#D1FAE5;padding:4px 8px;border-radius:999px;font-weight:900;white-space:nowrap}.search{display:flex;gap:8px;background:#F3F4F6;padding:8px;border-radius:14px;border:1px solid var(--line);margin-top:16px}.search input{border:0;background:transparent;outline:0;flex:1;font-size:15px;padding:10px;min-width:0}.search button{border:0;background:var(--primary);color:#fff;border-radius:10px;padding:0 16px;font-weight:900;cursor:pointer}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.chips span{font-size:13px;padding:6px 10px;background:#EEF2FF;color:#243B76;border-radius:999px}.quick-note{margin-top:18px;padding:14px;border-radius:16px;background:#F8FAFC;border:1px solid var(--line);color:#475569;font-size:14px}.quick-note strong{color:var(--primary)}main{max-width:1180px;margin:0 auto;padding:42px 6vw 80px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:18px}.section-head h2{margin:0;font-size:28px;letter-spacing:-.4px}.section-head p{margin:6px 0 0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature,.company,.mini-card,.notice{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 10px 28px rgba(15,23,42,.04)}.feature{padding:20px;min-height:150px}.icon{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#EAF2FF;margin-bottom:14px;font-size:21px}.feature h3{margin:0 0 8px}.feature p,.company p,.mini-card p{margin:0;color:var(--muted);font-size:14px}.layout{display:grid;grid-template-columns:250px 1fr;gap:18px;margin-top:28px}.filter{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;height:fit-content;position:sticky;top:82px}.filter h3{margin:0 0 14px}.filter-group{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}.filter-group strong{display:block;font-size:13px;color:var(--muted);margin-bottom:10px}.chip{display:inline-block;margin:0 6px 8px 0;padding:6px 10px;background:#F3F4F6;border:0;border-radius:999px;font-size:13px;font-family:inherit;cursor:pointer;color:#1F2937}.chip:hover{background:#EAF2FF;color:var(--primary)}.chip.active{background:var(--primary);color:#fff}.filter-status{margin:0 0 12px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#475569;font-size:14px}.empty{padding:28px;text-align:center;color:#64748b}.empty h3{margin:0 0 8px;color:#1F2937}.list{display:grid;gap:16px}.company{padding:20px}.company-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.title{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,#EAF2FF,#F8FAFC);border:1px solid var(--line);display:grid;place-items:center;font-weight:900;color:var(--primary)}.title h3{margin:0;font-size:20px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}.meta span{padding:3px 8px;font-size:12px;border-radius:999px;background:#F3F4F6;color:#4B5563}.valid{background:#ECFDF5;color:#047857;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:900;white-space:nowrap}.valid.pending{background:#FEF3C7;color:#92400E}.links{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.link{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:#FAFAFA;font-size:13px;font-weight:900;color:var(--primary);text-align:center}.link.primary-link{background:var(--primary);color:#fff;border-color:var(--primary)}.mini-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:42px}.mini-card{padding:22px}.mini-card h2{font-size:24px;margin:0 0 8px}.small-btn{display:inline-flex;border-radius:11px;padding:10px 13px;background:var(--accent);color:#111827;font-weight:900;font-size:13px;margin-top:16px}.notice{margin-top:22px;padding:22px;background:#fff}.notice h2{font-size:24px;margin:0 0 8px}.notice p{margin:0;color:#64748b}.notice ul{margin:14px 0 0;padding-left:20px;color:#475569;font-size:14px}.notice li{margin:6px 0}footer{padding:26px 6vw 40px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:920px){.nav{display:none}.hero-wrap,.layout,.mini-row{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.links{grid-template-columns:repeat(2,1fr)}.filter{position:static}}@media(max-width:560px){.hero{padding-top:46px}.grid{grid-template-columns:1fr}.company-top{flex-direction:column}.links{grid-template-columns:1fr}h1{font-size:36px}}
   </style>
 </head>
 <body>
@@ -47,11 +47,12 @@
       <div class="layout">
         <aside class="filter">
           <h3>筛选条件</h3>
-          <div class="filter-group"><strong>企业性质</strong><span class="chip">央国企</span><span class="chip">上市公司</span><span class="chip">民营龙头</span><span class="chip">外企</span></div>
-          <div class="filter-group"><strong>入口类型</strong><span class="chip">官网招聘</span><span class="chip">校园招聘</span><span class="chip">社会招聘</span><span class="chip">公开披露</span></div>
-          <div class="filter-group"><strong>重点行业</strong><span class="chip">电力能源</span><span class="chip">AI</span><span class="chip">新能源</span><span class="chip">半导体</span></div>
+          <div class="filter-group" style="border-top:0;padding-top:0;margin-top:0"><strong>快捷筛选</strong><button class="chip active" data-filter="全部">全部</button></div>
+          <div class="filter-group"><strong>企业性质</strong><button class="chip" data-filter="央企">央国企</button><button class="chip" data-filter="上市公司">上市公司</button><button class="chip" data-filter="民营龙头">民营龙头</button><button class="chip" data-filter="外企">外企</button></div>
+          <div class="filter-group"><strong>入口类型</strong><button class="chip" data-filter="官网招聘">官网招聘</button><button class="chip" data-filter="校园招聘">校园招聘</button><button class="chip" data-filter="社会招聘">社会招聘</button><button class="chip" data-filter="公开披露">公开披露</button></div>
+          <div class="filter-group"><strong>重点行业</strong><button class="chip" data-filter="电力能源">电力能源</button><button class="chip" data-filter="AI">AI</button><button class="chip" data-filter="新能源">新能源</button><button class="chip" data-filter="半导体">半导体</button></div>
         </aside>
-        <div class="list" id="companyList"></div>
+        <div><div class="filter-status" id="filterStatus">当前显示全部企业</div><div class="list" id="companyList"></div></div>
       </div>
     </section>
 
@@ -66,31 +67,95 @@
   <footer>© 2026 就业情报系统 Lite</footer>
   <script>
     let companies=[];
+    let currentFilter='全部';
+    let currentSearch='';
+
     async function loadCompanies(){
       try{
-        const res=await fetch('./data/companies.json?v=7');
+        const res=await fetch('./data/companies.json?v=8');
         companies=await res.json();
-        renderCompanies(companies);
+        applyFilters();
       }catch(e){
         document.getElementById('companyList').innerHTML='<div class="company">企业数据加载失败，请检查 data/companies.json 是否已上传。</div>';
       }
     }
+
+    function normalizeText(value){
+      if(!value) return '';
+      if(Array.isArray(value)) return value.map(normalizeText).join(' ');
+      if(typeof value==='object') return Object.values(value).map(normalizeText).join(' ');
+      return String(value).toLowerCase();
+    }
+
+    function getCompanySearchText(c){
+      return normalizeText([
+        c.name,c.shortName,c.status,c.type,c.industry,c.city,c.summary,c.tags,c.links,c.jobDirections,c.applicationTips,c.materials
+      ]);
+    }
+
+    function matchesFilter(c, filter){
+      if(filter==='全部') return true;
+      const text=getCompanySearchText(c);
+      const f=filter.toLowerCase();
+      // 兼容用户看到的“央国企”和数据里的“央企”
+      if(filter==='央企') return text.includes('央企') || text.includes('中央企业') || text.includes('国企');
+      if(filter==='AI') return text.includes('ai') || text.includes('人工智能') || text.includes('大模型');
+      if(filter==='新能源') return text.includes('新能源') || text.includes('新能源汽车');
+      if(filter==='公开披露') return text.includes('公开披露') || text.includes('投资者关系') || text.includes('公告');
+      if(filter==='官网招聘') return text.includes('官网招聘') || text.includes('招聘官网') || text.includes('员工招聘系统') || text.includes('招聘入口');
+      return text.includes(f);
+    }
+
+    function applyFilters(){
+      const q=currentSearch.trim().toLowerCase();
+      let list=companies.filter(c=>matchesFilter(c,currentFilter));
+      if(q){
+        list=list.filter(c=>getCompanySearchText(c).includes(q));
+      }
+      renderCompanies(list);
+      updateFilterStatus(list.length);
+      location.hash='companies';
+    }
+
+    function updateFilterStatus(count){
+      const label=currentFilter==='全部'?'全部企业':currentFilter;
+      const q=currentSearch.trim();
+      const searchText=q?`，搜索：${q}`:'';
+      document.getElementById('filterStatus').textContent=`当前显示：${label}${searchText}，共 ${count} 家`;
+    }
+
+    function setActiveChip(filter){
+      document.querySelectorAll('.filter .chip').forEach(btn=>{
+        btn.classList.toggle('active', btn.dataset.filter===filter);
+      });
+    }
+
     function renderCompanies(list){
+      if(!list.length){
+        document.getElementById('companyList').innerHTML='<div class="company empty"><h3>暂无匹配企业</h3><p>可以换一个筛选条件，或通过“提交企业”补充你关心的公司。</p></div>';
+        return;
+      }
       document.getElementById('companyList').innerHTML=list.map(c=>{
         const statusClass=c.status==='已校验'?'valid':'valid pending';
         const quickLinks=(c.links||[]).slice(0,3).map(l=>`<a class="link" href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`).join('');
         return `<article class="company"><div class="company-top"><div><div class="title"><div class="logo">${c.shortName||c.name.slice(0,1)}</div><div><h3>${c.name}</h3><div class="meta">${(c.tags||[]).map(t=>`<span>${t}</span>`).join('')}</div></div></div><p style="margin-top:14px">${c.summary||''}</p></div><span class="${statusClass}">● ${c.status||'待校验'}</span></div><div class="links"><a class="link primary-link" href="./company.html?id=${encodeURIComponent(c.id)}">查看完整情报页</a>${quickLinks}<a class="link" href="./company.html?id=${encodeURIComponent(c.id)}#sources">信息来源</a></div></article>`;
       }).join('');
     }
+
     function searchCompany(){
-      const q=document.getElementById('searchInput').value.trim();
-      if(!q){renderCompanies(companies);location.hash='companies';return;}
-      const matched=companies.filter(c=>[c.name,c.shortName,c.industry,c.type,c.city,...(c.tags||[])].join(' ').toLowerCase().includes(q.toLowerCase()));
-      renderCompanies(matched.length?matched:[]);
-      if(!matched.length){document.getElementById('companyList').innerHTML='<div class="company"><h3>暂未找到匹配企业</h3><p>可以尝试搜索行业关键词，或通过“提交企业”补充你关心的公司。</p></div>';}
-      location.hash='companies';
+      currentSearch=document.getElementById('searchInput').value.trim();
+      applyFilters();
     }
+
+    document.querySelectorAll('.filter .chip').forEach(btn=>{
+      btn.addEventListener('click',()=>{
+        currentFilter=btn.dataset.filter;
+        setActiveChip(currentFilter);
+        applyFilters();
+      });
+    });
     document.getElementById('searchInput').addEventListener('keydown',e=>{if(e.key==='Enter')searchCompany();});
+    document.getElementById('searchInput').addEventListener('input',e=>{currentSearch=e.target.value.trim();applyFilters();});
     loadCompanies();
   </script>
 </body>

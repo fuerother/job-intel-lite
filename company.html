@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>企业情报页｜就业情报系统 Lite</title>
   <style>
-    :root{--primary:#123D7C;--dark:#0B2854;--accent:#F59E0B;--bg:#F6F8FC;--card:#fff;--text:#1F2937;--muted:#6B7280;--line:#E5E7EB;--green:#10B981;--soft:#EEF2FF}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}a{text-decoration:none;color:inherit}.topbar{background:#fff;border-bottom:1px solid var(--line);padding:14px 6vw;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:900;color:var(--dark)}.brand-badge{width:34px;height:34px;border-radius:11px;background:var(--soft);display:grid;place-items:center}.nav{display:flex;gap:18px;font-size:14px;color:#475569}.nav a:hover{color:var(--primary)}.hero{background:linear-gradient(135deg,#103A78,#091D3D);color:#fff;padding:48px 6vw}.hero-inner{max-width:1180px;margin:0 auto}.back{display:inline-flex;margin-bottom:18px;color:rgba(255,255,255,.82);font-weight:800}.title-row{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.logo{width:64px;height:64px;border-radius:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);display:grid;place-items:center;font-size:28px;font-weight:900}.name-wrap{display:flex;gap:16px;align-items:center}.hero h1{font-size:clamp(34px,5vw,54px);line-height:1.08;margin:0}.status{padding:7px 12px;border-radius:999px;background:#D1FAE5;color:#065F46;font-weight:900;font-size:13px;white-space:nowrap}.status.pending{background:#FEF3C7;color:#92400E}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.tags span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);padding:4px 9px;border-radius:999px;font-size:13px}.summary{max-width:860px;color:rgba(255,255,255,.82);font-size:18px;margin:20px 0 0}.quick-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:12px;font-weight:900}.btn.primary{background:var(--accent);color:#111827}.btn.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);color:#fff}main{max-width:1180px;margin:0 auto;padding:38px 6vw 80px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 10px 28px rgba(15,23,42,.04)}.card h2{margin:0 0 14px;font-size:24px}.info-list{display:grid;gap:12px}.info-item{padding:12px 14px;background:#F8FAFC;border:1px solid var(--line);border-radius:14px}.info-item strong{display:block;color:var(--primary);margin-bottom:4px}.link-list{display:grid;gap:12px}.link-item{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:14px;border:1px solid var(--line);border-radius:15px;background:#FAFAFA}.link-item h3{margin:0;font-size:16px}.link-item p{margin:4px 0 0;color:var(--muted);font-size:13px}.open{color:var(--primary);font-weight:900;white-space:nowrap}.pill-list{display:flex;flex-wrap:wrap;gap:10px}.pill{background:#F3F4F6;border-radius:999px;padding:8px 12px;font-weight:800;font-size:13px}.jobs{display:grid;gap:12px}.job{padding:14px;border-radius:15px;background:#F8FAFC;border:1px solid var(--line)}.job h3{margin:0 0 4px}.job p{margin:0;color:var(--muted)}ul{margin:0;padding-left:20px;color:#475569}.full{margin-top:18px}.notice{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px;margin-top:18px;color:#475569}footer{padding:26px 6vw 40px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:820px){.nav{display:none}.title-row,.grid{grid-template-columns:1fr;display:grid}.link-item{align-items:flex-start;flex-direction:column}.hero h1{font-size:36px}}
+    :root{--primary:#123D7C;--dark:#0B2854;--accent:#F59E0B;--bg:#F6F8FC;--card:#fff;--text:#1F2937;--muted:#6B7280;--line:#E5E7EB;--green:#10B981;--soft:#EEF2FF;--warn:#FEF3C7}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}a{text-decoration:none;color:inherit}.topbar{background:#fff;border-bottom:1px solid var(--line);padding:14px 6vw;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:900;color:var(--dark)}.brand-badge{width:34px;height:34px;border-radius:11px;background:var(--soft);display:grid;place-items:center}.nav{display:flex;gap:18px;font-size:14px;color:#475569}.nav a:hover{color:var(--primary)}.hero{background:linear-gradient(135deg,#103A78,#091D3D);color:#fff;padding:42px 6vw}.hero-inner{max-width:1180px;margin:0 auto}.back{display:inline-flex;margin-bottom:18px;color:rgba(255,255,255,.82);font-weight:800}.title-row{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.logo{width:64px;height:64px;border-radius:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);display:grid;place-items:center;font-size:28px;font-weight:900}.name-wrap{display:flex;gap:16px;align-items:center}.hero h1{font-size:clamp(34px,5vw,52px);line-height:1.08;margin:0}.status{padding:7px 12px;border-radius:999px;background:#D1FAE5;color:#065F46;font-weight:900;font-size:13px;white-space:nowrap}.status.pending{background:#FEF3C7;color:#92400E}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.tags span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);padding:4px 9px;border-radius:999px;font-size:13px}.summary{max-width:880px;color:rgba(255,255,255,.82);font-size:18px;margin:20px 0 0}.quick-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:12px;font-weight:900}.btn.primary{background:var(--accent);color:#111827}.btn.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);color:#fff}main{max-width:1180px;margin:0 auto;padding:34px 6vw 80px}.section{margin-top:18px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 10px 28px rgba(15,23,42,.04)}.card h2{margin:0 0 14px;font-size:24px}.card .hint{margin:-6px 0 14px;color:var(--muted);font-size:14px}.info-list{display:grid;gap:12px}.info-item{padding:12px 14px;background:#F8FAFC;border:1px solid var(--line);border-radius:14px}.info-item strong{display:block;color:var(--primary);margin-bottom:4px}.link-list{display:grid;gap:12px}.link-item{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:14px;border:1px solid var(--line);border-radius:15px;background:#FAFAFA}.link-item h3{margin:0;font-size:16px}.link-item p{margin:4px 0 0;color:var(--muted);font-size:13px}.open{color:var(--primary);font-weight:900;white-space:nowrap}.pill-list{display:flex;flex-wrap:wrap;gap:10px}.pill{background:#F3F4F6;border-radius:999px;padding:8px 12px;font-weight:800;font-size:13px}.jobs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.job,.notice-card,.faq-item{padding:14px;border-radius:15px;background:#F8FAFC;border:1px solid var(--line)}.job h3,.notice-card h3,.faq-item h3{margin:0 0 4px}.job p,.notice-card p,.faq-item p{margin:0;color:var(--muted)}.notice-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.notice-tag{display:inline-block;margin-top:10px;padding:5px 9px;border-radius:999px;background:var(--warn);color:#92400E;font-size:12px;font-weight:900}ul{margin:0;padding-left:20px;color:#475569}.full{margin-top:18px}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}.source-note{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px;margin-top:18px;color:#475569}.disclosure-list{display:grid;gap:10px}.disclosure-item{padding:12px 14px;background:#F8FAFC;border:1px solid var(--line);border-radius:14px;color:#475569}footer{padding:26px 6vw 40px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:900px){.nav{display:none}.title-row,.grid,.two-col{grid-template-columns:1fr;display:grid}.jobs,.notice-grid{grid-template-columns:1fr}.link-item{align-items:flex-start;flex-direction:column}.hero h1{font-size:36px}}
   </style>
 </head>
 <body>
@@ -14,10 +14,7 @@
     <nav class="nav"><a href="./index.html#industries">热门行业</a><a href="./index.html#ai-assistant">AI 求职</a><a href="./index.html#notice">信息说明</a></nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-inner" id="hero"></div>
-  </section>
-
+  <section class="hero"><div class="hero-inner" id="hero"></div></section>
   <main id="content"></main>
   <footer>本站信息来源于企业官网、公开披露平台及官方招聘入口，仅供求职参考。请以企业官方最新发布为准。</footer>
 
@@ -25,7 +22,7 @@
     function getId(){return new URLSearchParams(location.search).get('id')||'southern-grid';}
     async function loadCompany(){
       try{
-        const res=await fetch('./data/companies.json?v=7');
+        const res=await fetch('./data/companies.json?v=9');
         const companies=await res.json();
         const company=companies.find(c=>c.id===getId());
         if(!company){renderNotFound();return;}
@@ -34,26 +31,38 @@
         document.getElementById('hero').innerHTML='<a class="back" href="./index.html">← 返回首页</a><h1>数据加载失败</h1><p class="summary">请检查 data/companies.json 是否已上传。</p>';
       }
     }
+    function safeList(arr){return Array.isArray(arr)?arr:[];}
     function renderCompany(c){
       document.title=`${c.name}情报页｜就业情报系统 Lite`;
       const statusClass=c.status==='已校验'?'status':'status pending';
-      document.getElementById('hero').innerHTML=`<a class="back" href="./index.html">← 返回首页</a><div class="title-row"><div><div class="name-wrap"><div class="logo">${c.shortName||c.name.slice(0,1)}</div><div><h1>${c.name}情报页</h1><div class="tags">${(c.tags||[]).map(t=>`<span>${t}</span>`).join('')}</div></div></div><p class="summary">${c.summary||''}</p><div class="quick-links">${(c.links||[]).slice(0,3).map((l,i)=>`<a class="btn ${i===0?'primary':'secondary'}" href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`).join('')}</div></div><span class="${statusClass}">● ${c.status||'待校验'}</span></div>`;
+      const links=safeList(c.links);
+      document.getElementById('hero').innerHTML=`<a class="back" href="./index.html">← 返回首页</a><div class="title-row"><div><div class="name-wrap"><div class="logo">${c.shortName||c.name.slice(0,1)}</div><div><h1>${c.name}情报页</h1><div class="tags">${safeList(c.tags).map(t=>`<span>${t}</span>`).join('')}</div></div></div><p class="summary">${c.summary||''}</p><div class="quick-links">${links.slice(0,3).map((l,i)=>`<a class="btn ${i===0?'primary':'secondary'}" href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`).join('')}</div></div><span class="${statusClass}">● ${c.status||'待校验'}</span></div>`;
       document.getElementById('content').innerHTML=`
-        <div class="grid">
-          <section class="card"><h2>企业速览</h2><div class="info-list">
-            <div class="info-item"><strong>企业性质</strong>${c.overview?.nature||c.type||''}</div>
-            <div class="info-item"><strong>业务方向</strong>${c.overview?.field||c.industry||''}</div>
-            <div class="info-item"><strong>区域信息</strong>${c.overview?.region||c.city||''}</div>
+        <section class="grid">
+          <div class="card"><h2>企业速览</h2><p class="hint">先判断企业类型、业务方向和适合关注的人群。</p><div class="info-list">
+            <div class="info-item"><strong>企业性质</strong>${c.overview?.nature||c.type||'待补充'}</div>
+            <div class="info-item"><strong>业务方向</strong>${c.overview?.field||c.industry||'待补充'}</div>
+            <div class="info-item"><strong>区域信息</strong>${c.overview?.region||c.city||'待补充'}</div>
             <div class="info-item"><strong>使用提示</strong>${c.overview?.note||'请以企业官方最新发布为准。'}</div>
-          </div></section>
-          <section class="card"><h2>官方入口</h2><div class="link-list">${(c.links||[]).map(l=>`<a class="link-item" href="${l.url}" target="_blank" rel="noopener"><div><h3>${l.label}</h3><p>${l.type||''}｜${l.desc||''}</p></div><span class="open">打开 →</span></a>`).join('')}</div></section>
-        </div>
-        <section class="card full"><h2>岗位方向</h2><div class="jobs">${(c.jobDirections||[]).map(j=>`<div class="job"><h3>${j.name}</h3><p>${j.desc}</p></div>`).join('')}</div></section>
-        <div class="grid full">
-          <section class="card"><h2>投递建议</h2><ul>${(c.applicationTips||[]).map(t=>`<li>${t}</li>`).join('')}</ul></section>
-          <section class="card"><h2>材料清单</h2><div class="pill-list">${(c.materials||[]).map(m=>`<span class="pill">${m}</span>`).join('')}</div></section>
-        </div>
-        <section class="card full" id="sources"><h2>信息来源</h2><div class="link-list">${(c.sources||[]).map(s=>`<a class="link-item" href="${s.url}" target="_blank" rel="noopener"><div><h3>${s.name}</h3><p>${s.url}</p></div><span class="open">核验 →</span></a>`).join('')}</div><div class="notice">最近校验时间：${c.updatedAt||'待补充'}。本站仅整理公开信息，不代表企业官方意见。</div></section>`;
+          </div></div>
+          <div class="card"><h2>官方入口</h2><p class="hint">优先从可核验的官方渠道查看公告和提交材料。</p><div class="link-list">${links.map(l=>`<a class="link-item" href="${l.url}" target="_blank" rel="noopener"><div><h3>${l.label}</h3><p>${l.type||''}｜${l.desc||''}</p></div><span class="open">打开 →</span></a>`).join('')||'<p class="hint">入口待补充。</p>'}</div></div>
+        </section>
+
+        <section class="card full"><h2>最新招聘公告</h2><p class="hint">用于快速判断当前是否有适合自己的招聘批次；具体时间以官方公告为准。</p><div class="notice-grid">${safeList(c.latestNotices).map(n=>`<a class="notice-card" href="${n.url||'#'}" target="_blank" rel="noopener"><h3>${n.title}</h3><p>${n.desc}</p><span class="notice-tag">${n.status||'待核验'}</span></a>`).join('')||'<p class="hint">公告信息待补充。</p>'}</div></section>
+
+        <section class="card full"><h2>适合岗位方向</h2><p class="hint">先看岗位大类，后续再结合具体公告判断专业、学历和经验要求。</p><div class="jobs">${safeList(c.jobDirections).map(j=>`<div class="job"><h3>${j.name}</h3><p>${j.desc}</p></div>`).join('')||'<p class="hint">岗位方向待补充。</p>'}</div></section>
+
+        <section class="two-col full">
+          <div class="card"><h2>投递材料清单</h2><p class="hint">不同批次可能要求不同材料，提交前请以公告为准。</p><div class="pill-list">${safeList(c.materials).map(m=>`<span class="pill">${m}</span>`).join('')||'<span class="pill">待补充</span>'}</div></div>
+          <div class="card"><h2>投递建议</h2><ul>${safeList(c.applicationTips).map(t=>`<li>${t}</li>`).join('')||'<li>请优先核验官方入口和公告要求。</li>'}</ul></div>
+        </section>
+
+        <section class="two-col full">
+          <div class="card"><h2>公开资料怎么看</h2><p class="hint">公开资料不是越多越好，重点看与求职相关的信息。</p><div class="disclosure-list">${safeList(c.disclosureNotes).map(d=>`<div class="disclosure-item">${d}</div>`).join('')||'<div class="disclosure-item">待补充。</div>'}</div></div>
+          <div class="card"><h2>常见问题</h2><div class="link-list">${safeList(c.faq).map(f=>`<div class="faq-item"><h3>${f.q}</h3><p>${f.a}</p></div>`).join('')||'<p class="hint">常见问题待补充。</p>'}</div></div>
+        </section>
+
+        <section class="card full" id="sources"><h2>信息来源与校验</h2><p class="hint">页面仅整理公开信息，不替代企业官方公告。</p><div class="link-list">${safeList(c.sources).map(s=>`<a class="link-item" href="${s.url}" target="_blank" rel="noopener"><div><h3>${s.name}</h3><p>${s.url}</p></div><span class="open">核验 →</span></a>`).join('')||'<p class="hint">来源待补充。</p>'}</div><div class="source-note">最近校验时间：${c.updatedAt||'待补充'}。如发现链接失效或信息过期，建议优先以企业官方最新发布为准。</div></section>`;
     }
     function renderNotFound(){
       document.getElementById('hero').innerHTML='<a class="back" href="./index.html">← 返回首页</a><h1>未找到企业</h1><p class="summary">请返回首页选择企业，或提交你希望补充的公司。</p>';

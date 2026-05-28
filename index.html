@@ -7,6 +7,27 @@
   <style>
     :root{--primary:#123D7C;--dark:#0B2854;--accent:#F59E0B;--bg:#F6F8FC;--card:#fff;--text:#1F2937;--muted:#6B7280;--line:#E5E7EB;--green:#10B981;--soft:#EEF2FF}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}a{text-decoration:none;color:inherit}.topbar{background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 6vw;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:900;color:var(--dark)}.brand-badge{width:34px;height:34px;border-radius:11px;background:var(--soft);display:grid;place-items:center}.nav{display:flex;gap:22px;font-size:14px;color:#475569}.nav a:hover{color:var(--primary)}.hero{padding:70px 6vw 46px;background:radial-gradient(circle at 82% 12%,rgba(245,158,11,.18),transparent 28%),linear-gradient(135deg,#103A78,#091D3D);color:#fff}.hero-wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.08fr .92fr;gap:36px;align-items:center}.tag{display:inline-flex;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);font-size:13px;margin-bottom:20px}h1{margin:0;font-size:clamp(36px,5vw,58px);line-height:1.08;letter-spacing:-1.5px}.hero p{font-size:18px;color:rgba(255,255,255,.84);max-width:720px;margin:20px 0 0}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 18px;border-radius:12px;font-weight:900;display:inline-flex;align-items:center;justify-content:center}.btn.primary{background:var(--accent);color:#111827}.search-card{background:rgba(255,255,255,.97);color:var(--text);padding:24px;border-radius:24px;box-shadow:0 22px 60px rgba(0,0,0,.22)}.search-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.search-head h3{margin:0;font-size:20px}.badge{font-size:12px;color:#065F46;background:#D1FAE5;padding:4px 8px;border-radius:999px;font-weight:900;white-space:nowrap}.search{display:flex;gap:8px;background:#F3F4F6;padding:8px;border-radius:14px;border:1px solid var(--line);margin-top:16px}.search input{border:0;background:transparent;outline:0;flex:1;font-size:15px;padding:10px;min-width:0}.search button{border:0;background:var(--primary);color:#fff;border-radius:10px;padding:0 16px;font-weight:900;cursor:pointer}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.chips span{font-size:13px;padding:6px 10px;background:#EEF2FF;color:#243B76;border-radius:999px}.quick-note{margin-top:18px;padding:14px;border-radius:16px;background:#F8FAFC;border:1px solid var(--line);color:#475569;font-size:14px}.quick-note strong{color:var(--primary)}main{max-width:1180px;margin:0 auto;padding:42px 6vw 80px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:18px}.section-head h2{margin:0;font-size:28px;letter-spacing:-.4px}.section-head p{margin:6px 0 0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature,.company,.mini-card,.notice{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 10px 28px rgba(15,23,42,.04)}.feature{padding:20px;min-height:150px}.icon{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#EAF2FF;margin-bottom:14px;font-size:21px}.feature h3{margin:0 0 8px}.feature p,.company p,.mini-card p{margin:0;color:var(--muted);font-size:14px}.layout{display:grid;grid-template-columns:250px 1fr;gap:18px;margin-top:28px}.filter{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;height:fit-content;position:sticky;top:82px}.filter h3{margin:0 0 14px}.filter-group{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}.filter-group strong{display:block;font-size:13px;color:var(--muted);margin-bottom:10px}.chip{display:inline-block;margin:0 6px 8px 0;padding:6px 10px;background:#F3F4F6;border:0;border-radius:999px;font-size:13px;font-family:inherit;cursor:pointer;color:#1F2937}.chip:hover{background:#EAF2FF;color:var(--primary)}.chip.active{background:var(--primary);color:#fff}.filter-status{margin:0 0 12px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:#fff;color:#475569;font-size:14px}.empty{padding:28px;text-align:center;color:#64748b}.empty h3{margin:0 0 8px;color:#1F2937}.list{display:grid;gap:16px}.company{padding:20px}.company-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.title{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,#EAF2FF,#F8FAFC);border:1px solid var(--line);display:grid;place-items:center;font-weight:900;color:var(--primary)}.title h3{margin:0;font-size:20px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}.meta span{padding:3px 8px;font-size:12px;border-radius:999px;background:#F3F4F6;color:#4B5563}.valid{background:#ECFDF5;color:#047857;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:900;white-space:nowrap}.valid.pending{background:#FEF3C7;color:#92400E}.links{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.link{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:#FAFAFA;font-size:13px;font-weight:900;color:var(--primary);text-align:center}.link.primary-link{background:var(--primary);color:#fff;border-color:var(--primary)}.mini-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:42px}.mini-card{padding:22px}.mini-card h2{font-size:24px;margin:0 0 8px}.small-btn{display:inline-flex;border-radius:11px;padding:10px 13px;background:var(--accent);color:#111827;font-weight:900;font-size:13px;margin-top:16px}.notice{margin-top:22px;padding:22px;background:#fff}.notice h2{font-size:24px;margin:0 0 8px}.notice p{margin:0;color:#64748b}.notice ul{margin:14px 0 0;padding-left:20px;color:#475569;font-size:14px}.notice li{margin:6px 0}footer{padding:26px 6vw 40px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:920px){.nav{display:none}.hero-wrap,.layout,.mini-row{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.links{grid-template-columns:repeat(2,1fr)}.filter{position:static}}@media(max-width:560px){.hero{padding-top:46px}.grid{grid-template-columns:1fr}.company-top{flex-direction:column}.links{grid-template-columns:1fr}h1{font-size:36px}}
   </style>
+  <!-- 百度统计：已配置站点 ID -->
+  <script>
+    window._hmt = window._hmt || [];
+    (function() {
+      var hm = document.createElement('script');
+      hm.src = 'https://hm.baidu.com/hm.js?bf72ba53f7ee65ef4690114e15bf62ef';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    function trackEvent(category, action, label, value){
+      try{
+        window._hmt = window._hmt || [];
+        window._hmt.push(['_trackEvent', category || 'general', action || 'click', label || '', value || 0]);
+      }catch(e){}
+    }
+    document.addEventListener('click', function(e){
+      var el = e.target.closest('[data-track-category]');
+      if(!el) return;
+      trackEvent(el.dataset.trackCategory, el.dataset.trackAction, el.dataset.trackLabel || el.textContent.trim());
+    });
+  </script>
 </head>
 <body>
   <header class="topbar">
@@ -43,7 +64,7 @@
     </section>
 
     <section id="companies" style="margin-top:48px">
-      <div class="section-head"><div><h2>企业入口</h2><p>查看企业概况、官方招聘入口、公开资料入口和求职参考信息。</p></div><a class="more" href="mailto:hello@example.com">提交企业 →</a></div>
+      <div class="section-head"><div><h2>企业入口</h2><p>查看企业概况、官方招聘入口、公开资料入口和求职参考信息。</p></div><a class="more" href="mailto:hello@example.com?subject=提交企业入口" data-track-category="submit" data-track-action="company_submit_click" data-track-label="企业入口区提交企业">提交企业 →</a></div>
       <div class="layout">
         <aside class="filter">
           <h3>筛选条件</h3>
@@ -57,8 +78,8 @@
     </section>
 
     <section class="mini-row" id="ai-assistant">
-      <div class="mini-card"><h2>AI 求职助手</h2><p>后续支持 JD 分析、简历优化、公司解读和投递策略生成。</p><a class="small-btn" href="mailto:hello@example.com?subject=申请AI求职助手内测">申请内测</a></div>
-      <div class="mini-card"><h2>提交公司入口</h2><p>发现官网招聘入口失效，或者希望补充某家公司，可以提交给我们校验。</p><a class="small-btn" href="mailto:hello@example.com?subject=提交企业入口">提交入口</a></div>
+      <div class="mini-card"><h2>AI 求职助手</h2><p>后续支持 JD 分析、简历优化、公司解读和投递策略生成。</p><a class="small-btn" href="mailto:hello@example.com?subject=申请AI求职助手内测" data-track-category="ai" data-track-action="waitlist_click" data-track-label="首页AI求职助手内测">申请内测</a></div>
+      <div class="mini-card"><h2>提交公司入口</h2><p>发现官网招聘入口失效，或者希望补充某家公司，可以提交给我们校验。</p><a class="small-btn" href="mailto:hello@example.com?subject=提交企业入口" data-track-category="submit" data-track-action="company_submit_click" data-track-label="首页提交企业入口">提交入口</a></div>
     </section>
 
     <section class="notice" id="notice"><h2>信息来源与使用说明</h2><p>本站信息来源于企业官网、公开披露平台及官方招聘入口，仅供求职参考。请以企业官方最新发布为准。</p><ul><li>公开信息不要求登录即可查看。</li><li>外部链接请优先核验域名和发布主体。</li><li>涉及收费内推、非官方链接或个人收款的招聘信息，请谨慎判断。</li></ul></section>
@@ -137,19 +158,21 @@
       }
       document.getElementById('companyList').innerHTML=list.map(c=>{
         const statusClass=c.status==='已校验'?'valid':'valid pending';
-        const quickLinks=(c.links||[]).slice(0,3).map(l=>`<a class="link" href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`).join('');
-        return `<article class="company"><div class="company-top"><div><div class="title"><div class="logo">${c.shortName||c.name.slice(0,1)}</div><div><h3>${c.name}</h3><div class="meta">${(c.tags||[]).map(t=>`<span>${t}</span>`).join('')}</div></div></div><p style="margin-top:14px">${c.summary||''}</p></div><span class="${statusClass}">● ${c.status||'待校验'}</span></div><div class="links"><a class="link primary-link" href="./company.html?id=${encodeURIComponent(c.id)}">查看完整情报页</a>${quickLinks}<a class="link" href="./company.html?id=${encodeURIComponent(c.id)}#sources">信息来源</a></div></article>`;
+        const quickLinks=(c.links||[]).slice(0,3).map(l=>`<a class="link" href="${l.url}" target="_blank" rel="noopener" data-track-category="official_link" data-track-action="homepage_official_click" data-track-label="${c.name}-${l.label}">${l.label}</a>`).join('');
+        return `<article class="company"><div class="company-top"><div><div class="title"><div class="logo">${c.shortName||c.name.slice(0,1)}</div><div><h3>${c.name}</h3><div class="meta">${(c.tags||[]).map(t=>`<span>${t}</span>`).join('')}</div></div></div><p style="margin-top:14px">${c.summary||''}</p></div><span class="${statusClass}">● ${c.status||'待校验'}</span></div><div class="links"><a class="link primary-link" href="./company.html?id=${encodeURIComponent(c.id)}" data-track-category="company" data-track-action="detail_click" data-track-label="${c.name}">查看完整情报页</a>${quickLinks}<a class="link" href="./company.html?id=${encodeURIComponent(c.id)}#sources" data-track-category="company" data-track-action="source_click" data-track-label="${c.name}">信息来源</a></div></article>`;
       }).join('');
     }
 
     function searchCompany(){
       currentSearch=document.getElementById('searchInput').value.trim();
+      trackEvent('search','keyword_search',currentSearch || '空搜索');
       applyFilters();
     }
 
     document.querySelectorAll('.filter .chip').forEach(btn=>{
       btn.addEventListener('click',()=>{
         currentFilter=btn.dataset.filter;
+        trackEvent('filter','filter_click',currentFilter);
         setActiveChip(currentFilter);
         applyFilters();
       });

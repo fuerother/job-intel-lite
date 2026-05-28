@@ -3,24 +3,129 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>就业情报系统 Lite</title>
+  <title>就业情报系统 Lite｜你的就业情报，请查收</title>
   <style>
-    :root{--primary:#123D7C;--dark:#0B2854;--accent:#F59E0B;--bg:#F6F8FC;--card:#fff;--text:#1F2937;--muted:#6B7280;--line:#E5E7EB}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}a{text-decoration:none;color:inherit}.topbar{background:linear-gradient(135deg,var(--dark),var(--primary));color:#fff;padding:18px 6vw;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;box-shadow:0 8px 24px rgba(12,39,80,.18)}.brand{display:flex;align-items:center;gap:12px;font-size:20px;font-weight:800}.brand-badge{width:34px;height:34px;border-radius:10px;background:rgba(255,255,255,.14);display:grid;place-items:center}.nav{display:flex;gap:22px;font-size:14px}.nav a{color:rgba(255,255,255,.9)}.hero{padding:72px 6vw 48px;background:radial-gradient(circle at 80% 20%,rgba(245,158,11,.2),transparent 30%),linear-gradient(135deg,#103A78,#091D3D);color:#fff}.hero-wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center}.tag{display:inline-flex;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);font-size:13px;margin-bottom:20px}h1{margin:0;font-size:clamp(34px,5vw,58px);line-height:1.08;letter-spacing:-1.5px}.hero p{font-size:18px;color:rgba(255,255,255,.82);max-width:700px}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 18px;border-radius:12px;font-weight:800}.btn.primary{background:var(--accent);color:#111827}.btn.secondary{border:1px solid rgba(255,255,255,.26);color:#fff;background:rgba(255,255,255,.08)}.search-card{background:rgba(255,255,255,.96);color:var(--text);padding:24px;border-radius:24px;box-shadow:0 22px 60px rgba(0,0,0,.22)}.search-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.search-head h3{margin:0;font-size:20px}.badge{font-size:12px;color:#065F46;background:#D1FAE5;padding:4px 8px;border-radius:999px;font-weight:800;white-space:nowrap}.search{display:flex;gap:8px;background:#F3F4F6;padding:8px;border-radius:14px;border:1px solid var(--line);margin-top:16px}.search input{border:0;background:transparent;outline:0;flex:1;font-size:15px;padding:10px;min-width:0}.search button{border:0;background:var(--primary);color:#fff;border-radius:10px;padding:0 16px;font-weight:800}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.chips span{font-size:13px;padding:6px 10px;background:#EEF2FF;color:#243B76;border-radius:999px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.stat{padding:14px;background:#F9FAFB;border:1px solid var(--line);border-radius:16px}.stat strong{display:block;font-size:24px;color:var(--primary);line-height:1.2}.stat small{color:var(--muted)}main{max-width:1180px;margin:0 auto;padding:42px 6vw 80px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:18px}.section-head h2{margin:0;font-size:28px}.section-head p{margin:6px 0 0;color:var(--muted)}.more{color:var(--primary);font-weight:800;white-space:nowrap}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature,.company,.ai,.principle{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 10px 28px rgba(15,23,42,.04)}.feature{padding:20px;min-height:166px}.icon{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#EAF2FF;margin-bottom:14px;font-size:21px}.feature h3{margin:0 0 8px}.feature p,.company p,.ai p{margin:0;color:var(--muted);font-size:14px}.layout{display:grid;grid-template-columns:260px 1fr;gap:18px;margin-top:28px}.filter{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;height:fit-content}.filter h3{margin:0 0 16px}.filter-group{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}.filter-group strong{display:block;font-size:13px;color:var(--muted);margin-bottom:10px}.chip{display:inline-block;margin:0 6px 8px 0;padding:6px 10px;background:#F3F4F6;border-radius:999px;font-size:13px}.list{display:grid;gap:16px}.company{padding:20px}.company-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.title{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,#EAF2FF,#F8FAFC);border:1px solid var(--line);display:grid;place-items:center;font-weight:900;color:var(--primary)}.title h3{margin:0;font-size:20px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}.meta span{padding:3px 8px;font-size:12px;border-radius:999px;background:#F3F4F6;color:#4B5563}.valid{background:#ECFDF5;color:#047857;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800;white-space:nowrap}.links{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.link{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:#FAFAFA;font-size:13px;font-weight:800;color:var(--primary);text-align:center}.ai{margin-top:42px;padding:28px;display:grid;grid-template-columns:.9fr 1.1fr;gap:24px;align-items:center}.ai h2,.principle h2{margin:0;font-size:28px}.wait{display:flex;gap:10px;background:#F3F4F6;border:1px solid var(--line);border-radius:14px;padding:8px;margin-top:18px}.wait input{flex:1;border:0;outline:0;background:transparent;padding:10px;min-width:0}.wait button{border:0;border-radius:10px;padding:0 14px;background:var(--accent);font-weight:900}.ai-box{background:#0F172A;color:#fff;border-radius:22px;padding:20px}.ai-box div{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.78);font-size:14px}.ai-box div:last-child{border-bottom:0}.ai-box strong{color:#fff}.principle{margin-top:42px;background:var(--dark);color:#fff;padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center}.principle p{color:rgba(255,255,255,.78)}.principle-item{padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);font-size:14px;margin-bottom:10px}footer{padding:26px 6vw 40px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:920px){.nav{display:none}.hero-wrap,.layout,.ai,.principle{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.links{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.hero{padding-top:46px}.grid,.stats{grid-template-columns:1fr}.company-top{flex-direction:column}.wait{flex-direction:column}.wait button{padding:12px}h1{font-size:36px}}
+    :root{--primary:#123D7C;--dark:#0B2854;--accent:#F59E0B;--bg:#F6F8FC;--card:#fff;--text:#1F2937;--muted:#6B7280;--line:#E5E7EB;--green:#10B981;--soft:#EEF2FF;--soft2:#FFF7ED}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}a{text-decoration:none;color:inherit}.topbar{background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 6vw;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:900;color:var(--dark)}.brand-badge{width:34px;height:34px;border-radius:11px;background:var(--soft);display:grid;place-items:center}.nav{display:flex;gap:22px;font-size:14px;color:#475569}.nav a:hover{color:var(--primary)}.hero{padding:70px 6vw 46px;background:radial-gradient(circle at 82% 12%,rgba(245,158,11,.18),transparent 28%),linear-gradient(135deg,#103A78,#091D3D);color:#fff}.hero-wrap{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.08fr .92fr;gap:36px;align-items:center}.tag{display:inline-flex;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);font-size:13px;margin-bottom:20px}h1{margin:0;font-size:clamp(36px,5vw,58px);line-height:1.08;letter-spacing:-1.5px}.hero p{font-size:18px;color:rgba(255,255,255,.84);max-width:720px;margin:20px 0 0}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 18px;border-radius:12px;font-weight:900;display:inline-flex;align-items:center;justify-content:center}.btn.primary{background:var(--accent);color:#111827}.btn.secondary{border:1px solid rgba(255,255,255,.26);color:#fff;background:rgba(255,255,255,.08)}.search-card{background:rgba(255,255,255,.97);color:var(--text);padding:24px;border-radius:24px;box-shadow:0 22px 60px rgba(0,0,0,.22)}.search-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.search-head h3{margin:0;font-size:20px}.badge{font-size:12px;color:#065F46;background:#D1FAE5;padding:4px 8px;border-radius:999px;font-weight:900;white-space:nowrap}.search{display:flex;gap:8px;background:#F3F4F6;padding:8px;border-radius:14px;border:1px solid var(--line);margin-top:16px}.search input{border:0;background:transparent;outline:0;flex:1;font-size:15px;padding:10px;min-width:0}.search button{border:0;background:var(--primary);color:#fff;border-radius:10px;padding:0 16px;font-weight:900;cursor:pointer}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.chips a,.chips span{font-size:13px;padding:6px 10px;background:#EEF2FF;color:#243B76;border-radius:999px}.quick-note{margin-top:18px;padding:14px;border-radius:16px;background:#F8FAFC;border:1px solid var(--line);color:#475569;font-size:14px}.quick-note strong{color:var(--primary)}main{max-width:1180px;margin:0 auto;padding:42px 6vw 80px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:18px}.section-head h2{margin:0;font-size:28px;letter-spacing:-.4px}.section-head p{margin:6px 0 0;color:var(--muted)}.more{color:var(--primary);font-weight:900;white-space:nowrap}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.feature,.company,.mini-card,.notice{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 10px 28px rgba(15,23,42,.04)}.feature{padding:20px;min-height:150px}.icon{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:#EAF2FF;margin-bottom:14px;font-size:21px}.feature h3{margin:0 0 8px}.feature p,.company p,.mini-card p{margin:0;color:var(--muted);font-size:14px}.layout{display:grid;grid-template-columns:250px 1fr;gap:18px;margin-top:28px}.filter{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;height:fit-content;position:sticky;top:82px}.filter h3{margin:0 0 14px}.filter-group{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}.filter-group strong{display:block;font-size:13px;color:var(--muted);margin-bottom:10px}.chip{display:inline-block;margin:0 6px 8px 0;padding:6px 10px;background:#F3F4F6;border-radius:999px;font-size:13px}.list{display:grid;gap:16px}.company{padding:20px}.company-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.title{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;border-radius:16px;background:linear-gradient(135deg,#EAF2FF,#F8FAFC);border:1px solid var(--line);display:grid;place-items:center;font-weight:900;color:var(--primary)}.title h3{margin:0;font-size:20px}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}.meta span{padding:3px 8px;font-size:12px;border-radius:999px;background:#F3F4F6;color:#4B5563}.valid{background:#ECFDF5;color:#047857;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:900;white-space:nowrap}.links{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.link{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:#FAFAFA;font-size:13px;font-weight:900;color:var(--primary);text-align:center}.link.primary-link{background:var(--primary);color:#fff;border-color:var(--primary)}.mini-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:42px}.mini-card{padding:22px}.mini-card h2{font-size:24px;margin:0 0 8px}.mini-card .small-actions{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap}.small-btn{display:inline-flex;border-radius:11px;padding:10px 13px;background:#F3F4F6;color:#374151;font-weight:800;font-size:13px}.small-btn.orange{background:var(--accent);color:#111827}.notice{margin-top:22px;padding:22px;background:#fff}.notice h2{font-size:24px;margin:0 0 8px}.notice p{margin:0;color:#64748b}.notice ul{margin:14px 0 0;padding-left:20px;color:#475569;font-size:14px}.notice li{margin:6px 0}footer{padding:26px 6vw 40px;color:var(--muted);font-size:13px;text-align:center}@media(max-width:920px){.nav{display:none}.hero-wrap,.layout,.mini-row{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.links{grid-template-columns:repeat(2,1fr)}.filter{position:static}}@media(max-width:560px){.hero{padding-top:46px}.grid{grid-template-columns:1fr}.company-top{flex-direction:column}.links{grid-template-columns:1fr}h1{font-size:36px}}
   </style>
 </head>
 <body>
-  <header class="topbar"><div class="brand"><div class="brand-badge">🔎</div><span>就业情报系统 Lite</span></div><nav class="nav"><a href="#companies">企业入口</a><a href="#industries">行业情报</a><a href="#ai">AI 内测</a><a href="#principle">产品原则</a></nav></header>
-  <section class="hero"><div class="hero-wrap"><div><div class="tag">公开就业信息 · 官网投递入口 · 不登录可查</div><h1>查公司、查行业、找官方投递入口。</h1><p>聚合企业官网、校招社招入口、上市公司公开披露与行业就业资料，让求职者在投递前先看清楚。</p><div class="actions"><a class="btn primary" href="#companies">查看企业入口</a><a class="btn secondary" href="#ai">体验 AI 求职助手</a></div></div><div class="search-card"><div class="search-head"><h3>一站式就业情报搜索</h3><span class="badge">公开信息免费查</span></div><div class="search"><input placeholder="搜索公司 / 行业 / 校招入口，例如：南方电网"/><button>搜索</button></div><div class="chips"><span>央国企</span><span>电力能源</span><span>新能源汽车</span><span>人工智能</span><span>半导体</span><span>校招入口</span></div><div class="stats"><div class="stat"><strong>100+</strong><small>首批企业入口</small></div><div class="stat"><strong>5</strong><small>重点行业</small></div><div class="stat"><strong>0</strong><small>公开信息登录门槛</small></div></div></div></div></section>
+  <header class="topbar">
+    <div class="brand"><div class="brand-badge">🔎</div><span>就业情报系统 Lite</span></div>
+    <nav class="nav"><a href="#industries">热门行业</a><a href="#ai-assistant">AI 求职</a><a href="#notice">信息说明</a></nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-wrap">
+      <div>
+        <div class="tag">公开就业信息 · 官方招聘入口 · 不登录可查</div>
+        <h1>你的就业情报，请查收。</h1>
+        <p>把分散在企业官网、招聘系统和公开披露平台里的信息，整理成求职者看得懂、用得上的企业情报。</p>
+        <div class="actions"><a class="btn primary" href="#industries">热门行业</a></div>
+      </div>
+      <div class="search-card">
+        <div class="search-head"><h3>搜索企业与入口</h3><span class="badge">公开信息免费查</span></div>
+        <div class="search"><input placeholder="输入公司名称，如：南方电网、比亚迪、寒武纪"/><button>搜索</button></div>
+        <div class="chips"><span>央国企</span><span>电力能源</span><span>新能源汽车</span><span>人工智能</span><span>半导体</span><span>校招入口</span></div>
+        <div class="quick-note"><strong>可查看：</strong>企业官网入口、官方招聘系统、公开资料入口、岗位方向和投递参考。</div>
+      </div>
+    </div>
+  </section>
+
   <main>
-    <section id="industries"><div class="section-head"><div><h2>先从高价值行业切入</h2><p>第一版不追求全量覆盖，先把重点行业做准、做清楚、做可用。</p></div><a class="more" href="#">查看全部行业 →</a></div><div class="grid"><div class="feature"><div class="icon">⚡</div><h3>电力能源</h3><p>聚合电网、电力设备、新型能源服务等企业招聘入口与公开资料。</p></div><div class="feature"><div class="icon">🤖</div><h3>人工智能</h3><p>整理 AI 企业、岗位类型、技能要求与官网投递渠道。</p></div><div class="feature"><div class="icon">🚗</div><h3>新能源汽车</h3><p>覆盖整车、三电、供应链与智能驾驶方向代表企业。</p></div><div class="feature"><div class="icon">🧩</div><h3>半导体</h3><p>整理设计、制造、封测、设备、材料等方向的求职入口。</p></div></div></section>
-    <section id="companies" style="margin-top:48px"><div class="section-head"><div><h2>企业官网投递入口</h2><p>把分散在官网、校招站、公众号和披露平台的信息，整理成求职者能看懂的入口卡片。</p></div><a class="more" href="#">提交企业入口 →</a></div><div class="layout"><aside class="filter"><h3>筛选条件</h3><div class="filter-group"><strong>企业性质</strong><span class="chip">央国企</span><span class="chip">上市公司</span><span class="chip">民营龙头</span><span class="chip">外企</span></div><div class="filter-group"><strong>入口类型</strong><span class="chip">官网招聘</span><span class="chip">校园招聘</span><span class="chip">社会招聘</span><span class="chip">实习入口</span></div><div class="filter-group"><strong>重点行业</strong><span class="chip">电力能源</span><span class="chip">AI</span><span class="chip">新能源</span><span class="chip">半导体</span></div></aside><div class="list">
-      <article class="company"><div class="company-top"><div><div class="title"><div class="logo">南</div><div><h3>南方电网</h3><div class="meta"><span>央企</span><span>电力能源</span><span>广州</span><span>公开入口已整理</span></div></div></div><p style="margin-top:14px">聚合企业官网、招聘平台、校园招聘入口与公开披露信息，适合关注电力能源、数字化、电网业务方向的求职者。</p></div><span class="valid">● 已校验</span></div><div class="links"><a class="link" href="./southern-grid.html">查看完整情报页</a><a class="link" href="https://zhaopin.csg.cn/" target="_blank" rel="noopener">员工招聘系统</a><a class="link" href="https://www.csg.cn/" target="_blank" rel="noopener">企业官网</a><a class="link" href="./southern-grid.html#disclosure">公开披露</a></div></article>
-      <article class="company"><div class="company-top"><div><div class="title"><div class="logo">比</div><div><h3>比亚迪</h3><div class="meta"><span>上市公司</span><span>新能源汽车</span><span>深圳</span><span>校招/社招</span></div></div></div><p style="margin-top:14px">整理企业官网招聘、校园招聘、社会招聘、投资者关系等入口，帮助求职者快速定位官方渠道。</p></div><span class="valid">● 已校验</span></div><div class="links"><a class="link" href="#">官网招聘</a><a class="link" href="#">校园招聘</a><a class="link" href="#">投资者关系</a><a class="link" href="#">岗位方向</a></div></article>
-      <article class="company"><div class="company-top"><div><div class="title"><div class="logo">寒</div><div><h3>寒武纪</h3><div class="meta"><span>上市公司</span><span>人工智能</span><span>芯片</span><span>公开披露</span></div></div></div><p style="margin-top:14px">围绕 AI 芯片、研发岗位、校招社招入口与公告披露资料，提供求职前的信息导航。</p></div><span class="valid">● 已校验</span></div><div class="links"><a class="link" href="#">官网入口</a><a class="link" href="#">招聘入口</a><a class="link" href="#">公告披露</a><a class="link" href="#">AI 解读</a></div></article>
-    </div></div></section>
-    <section id="ai" class="ai"><div><div class="tag" style="color:#1F2937;background:#FFF4E0;border-color:#FDE68A">AI 能力预留 · 内测中</div><h2>后续让 AI 帮你解读公司和岗位。</h2><p>先做公开信息导航，验证用户需求；当用户开始使用后，再逐步上线 AI 公司解读、JD 分析、简历优化和投递策略。</p><div class="wait"><input placeholder="留下邮箱 / 微信，获取 AI 内测资格"/><button>申请内测</button></div></div><div class="ai-box"><div><strong>AI 公司解读：</strong>把公开披露、官网新闻、招聘入口转成求职参考。</div><div><strong>AI JD 分析：</strong>判断岗位真实要求、隐含门槛和简历关键词。</div><div><strong>AI 简历优化：</strong>根据目标岗位，生成修改建议和投递版本。</div><div><strong>AI 投递策略：</strong>推荐投递顺序、官网入口和跟进节奏。</div></div></section>
-    <section id="principle" class="principle"><div><h2>公开信息，公开可查；个人信息，个人掌控。</h2><p>第一版只做公开信息披露和官网入口导航，不强制登录，不收集简历，不获取用户隐私。</p></div><div><div class="principle-item">公开资料不设登录门槛，用户可直接查看。</div><div class="principle-item">企业信息基于官网、公告、披露平台等公开来源整理。</div><div class="principle-item">后续涉及简历、求职状态和匹配服务时，必须由用户主动授权。</div></div></section>
+    <section id="industries">
+      <div class="section-head">
+        <div>
+          <h2>热门行业</h2>
+          <p>快速查看热门行业的代表企业、官方招聘入口和公开资料。</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="feature"><div class="icon">⚡</div><h3>电力能源</h3><p>电网、电力设备、新能源服务、能源数字化等方向。</p></div>
+        <div class="feature"><div class="icon">🤖</div><h3>人工智能</h3><p>大模型、AI 应用、智能硬件、AI 芯片和数据方向。</p></div>
+        <div class="feature"><div class="icon">🚗</div><h3>新能源汽车</h3><p>整车、三电、供应链、智能驾驶和销售服务方向。</p></div>
+        <div class="feature"><div class="icon">🧩</div><h3>半导体</h3><p>设计、制造、封测、设备、材料和 EDA 方向。</p></div>
+      </div>
+    </section>
+
+    <section id="companies" style="margin-top:48px">
+      <div class="section-head">
+        <div>
+          <h2>企业入口</h2>
+          <p>查看企业概况、官方招聘入口、公开资料入口和求职参考信息。</p>
+        </div>
+        <a class="more" href="mailto:hello@example.com">提交企业 →</a>
+      </div>
+
+      <div class="layout">
+        <aside class="filter">
+          <h3>筛选条件</h3>
+          <div class="filter-group">
+            <strong>企业性质</strong>
+            <span class="chip">央国企</span>
+            <span class="chip">上市公司</span>
+            <span class="chip">民营龙头</span>
+            <span class="chip">外企</span>
+          </div>
+          <div class="filter-group">
+            <strong>入口类型</strong>
+            <span class="chip">官网招聘</span>
+            <span class="chip">校园招聘</span>
+            <span class="chip">社会招聘</span>
+            <span class="chip">公开披露</span>
+          </div>
+          <div class="filter-group">
+            <strong>重点行业</strong>
+            <span class="chip">电力能源</span>
+            <span class="chip">AI</span>
+            <span class="chip">新能源</span>
+            <span class="chip">半导体</span>
+          </div>
+        </aside>
+
+        <div class="list">
+        <article class="company" id="southern-grid">
+          <div class="company-top">
+            <div>
+              <div class="title"><div class="logo">南</div><div><h3>南方电网</h3><div class="meta"><span>央企</span><span>电力能源</span><span>广州</span><span>情报页</span></div></div></div>
+              <p style="margin-top:14px">已整理企业官网、员工招聘系统、公开资料入口、岗位方向和投递建议，适合关注电力能源、电网业务、数字化方向的求职者。</p>
+            </div>
+            <span class="valid">● 已校验</span>
+          </div>
+          <div class="links"><a class="link primary-link" href="./southern-grid.html">查看南方电网详情</a><a class="link" href="https://zhaopin.csg.cn/" target="_blank">员工招聘系统</a><a class="link" href="https://www.csg.cn/" target="_blank">企业官网</a><a class="link" href="./southern-grid.html#sources">信息来源</a></div>
+        </article>
+
+        <article class="company">
+          <div class="company-top">
+            <div>
+              <div class="title"><div class="logo">比</div><div><h3>比亚迪</h3><div class="meta"><span>上市公司</span><span>新能源汽车</span><span>深圳</span><span>待补充</span></div></div></div>
+              <p style="margin-top:14px">计划整理官网招聘、校园招聘、社会招聘、投资者关系、岗位方向和投递注意事项。</p>
+            </div>
+            <span class="valid" style="background:#FEF3C7;color:#92400E">○ 待整理</span>
+          </div>
+          <div class="links"><a class="link" href="#">官网招聘</a><a class="link" href="#">校园招聘</a><a class="link" href="#">投资者关系</a><a class="link" href="#">岗位方向</a></div>
+        </article>
+
+        <article class="company">
+          <div class="company-top">
+            <div>
+              <div class="title"><div class="logo">寒</div><div><h3>寒武纪</h3><div class="meta"><span>上市公司</span><span>人工智能</span><span>芯片</span><span>待补充</span></div></div></div>
+              <p style="margin-top:14px">计划整理 AI 芯片相关岗位、招聘入口、公告披露和研发类岗位简历建议。</p>
+            </div>
+            <span class="valid" style="background:#FEF3C7;color:#92400E">○ 待整理</span>
+          </div>
+          <div class="links"><a class="link" href="#">官网入口</a><a class="link" href="#">招聘入口</a><a class="link" href="#">公告披露</a><a class="link" href="#">岗位方向</a></div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="mini-row" id="ai-assistant">
+      <div class="mini-card"><h2>AI 求职助手</h2><p>JD 分析、简历优化、公司解读和投递策略功能正在准备中。你可以先申请内测，后续优先体验。</p><div class="small-actions"><a class="small-btn orange" href="mailto:hello@example.com">申请内测</a></div></div>
+      <div class="mini-card"><h2>你想查哪家公司？</h2><p>提交你关心的公司名称和问题，我们会优先补充用户关注较多的企业。</p><div class="small-actions"><a class="small-btn" href="mailto:hello@example.com">提交公司</a><a class="small-btn" href="#notice">查看信息说明</a></div></div>
+    </section>
+
+    <section id="notice" class="notice"><h2>信息来源与使用说明</h2><p>本站整理公开就业信息和官方入口，帮助求职者快速定位可信来源。</p><ul><li>信息来源包括企业官网、官方招聘系统、公开披露平台、政府公开网站等。</li><li>当前版本不要求登录，不收集简历，不获取用户隐私。</li><li>所有招聘要求、投递时间和岗位信息，请以企业官方最新发布为准。</li><li>本站不提供收费内推、代报名、包过承诺等服务。</li></ul></section>
   </main>
-  <footer>本站信息来源于企业官网、公开披露信息及公开招聘入口，仅供求职参考。请以企业官方最新发布为准。<br/>© 2026 就业情报系统 Lite · Demo Page</footer>
+  <footer>© 2026 就业情报系统 Lite ｜信息仅供求职参考，请以企业官方最新发布为准。</footer>
 </body>
 </html>

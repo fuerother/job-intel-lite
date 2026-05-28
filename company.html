@@ -22,7 +22,7 @@
     function getId(){return new URLSearchParams(location.search).get('id')||'southern-grid';}
     async function loadCompany(){
       try{
-        const res=await fetch('./data/companies.json?v=9');
+        const res=await fetch('./data/companies.json?v=10');
         const companies=await res.json();
         const company=companies.find(c=>c.id===getId());
         if(!company){renderNotFound();return;}

@@ -72,7 +72,7 @@
 
     async function loadCompanies(){
       try{
-        const res=await fetch('./data/companies.json?v=8');
+        const res=await fetch('./data/companies.json?v=10');
         companies=await res.json();
         applyFilters();
       }catch(e){
